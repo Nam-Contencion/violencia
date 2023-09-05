@@ -1,0 +1,240 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+:root{
+	scroll-behavior: smooth;
+}
+
+body{
+	font-family: 'Markazi Text', serif;
+}
+
+.contenedor{
+	width: 90%;
+	max-width: 1200px;
+	overflow: hidden;
+	margin: auto;
+	padding: 40px 0;
+}
+
+header{
+	height: 100vh;
+	background-image: linear-gradient(rgba(4,9,30,0.5),rgba(4,9,30,0.5)),url(imagen/fondo7.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment:fixed;
+}
+
+.head{
+	text-align: center;
+	padding: 0;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	color: #fff;
+}
+
+/*FONDO*/
+
+body{
+	background-image: radial-gradient(circle at 58.65% 31.46%, #ffffc4 0, #ffffb7 16.67%, #fff2ab 33.33%, #f2d49d 50%, #d5b890 66.67%, #baa085 83.33%, #a28c7a 100%);
+}
+
+.menu{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 10%;
+	background-image: linear-gradient(to right, #f83600 0%, #f9d423 100%);
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	box-shadow: 0 0 6px rgba(0, 0, .5);
+	font-size: 25px;
+}
+
+/**/
+
+ul, ol {
+	list-style:none;
+}
+			
+.nav > li {
+	float:left;
+}
+			
+.nav li a {
+	color:#fff;
+	text-decoration:none;
+	padding:8px 10px;
+	display:block;
+	font-size: 25.5px;
+}
+			
+.nav li a:hover {
+	background-color:#fcad56;
+}
+			
+.nav li ul {
+	display:none;
+	position:absolute;
+	min-width:140px;
+	background-image: linear-gradient(to right, #f83600 0%, #f9d423 100%);
+}
+			
+.nav li:hover > ul {
+	display:block;
+}
+			
+.nav li ul li {
+	position:relative;
+}
+			
+.nav li ul li ul {
+	right:-1000px;
+	top:0px;
+}
+			
+/*Color de texto*/
+
+h1:hover{
+	color: yellow;
+}
+
+.enlaces a:hover{
+	color: yellow;
+}
+
+h2:hover{
+	color: #36c213;
+}
+
+h3:hover{
+	color: #F28411;
+}
+
+.menu a{
+	color: #fff;
+	text-decoration: none;
+}
+
+.menu a:hover{
+	color: black;
+}
+
+.titulo{
+	font-size: 100px;
+	margin-bottom: 15px;
+}
+
+.copy{
+	font-weight: 300;
+	font-size: 30px;
+}
+
+.subtitulo{
+	text-align: center;
+	font-weight: 300;
+	color: #D30547;
+	margin-bottom: 40px;
+	font-size: 50px;
+}
+
+.sub{
+	font-weight: 300;
+	font-size: 35px;
+	color: #9E2387;
+}
+
+/*bibliografia */
+
+.contenedor-bibliografia{
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+
+.bibliografia{
+	font-weight: 300;
+	font-size: 25px;
+	color: black;
+}
+
+/*imagen*/
+
+.img1{
+	height:250px;
+	width: 380px;
+	float: left;
+	padding: 50px;
+}
+
+.enlac a:hover{
+	color: #8cd660;
+}
+
+
+/*footer*/
+
+footer{
+	background-image: linear-gradient(to right, #f9d423 0%, #ff4e50 100%);
+	padding: 0.1px;
+}
+
+.footer-content{
+	display: flex;
+	justify-content: space-between;
+	align-items:center;
+	flex-wrap: wrap;
+	padding-top: 60px;
+	padding-bottom: 40px;
+}
+
+.contact-us{
+	width: 50%;
+	color: #fff;
+}
+
+.brand{
+	font-weight: 500;
+	font-size: 40px;
+}
+
+.brand+p{
+	font-variant: 500;
+}
+
+.social-media{
+	width: 50%;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.social-media-icon{
+	display: inline-block;
+	margin-left: 20px;
+	width: 60px;
+	height: 60px;
+}
+
+.line{
+	width: 90%;
+	max-width: 12000px;
+	margin: 0 auto;
+	height: 2px;
+	background: #fff;
+	margin-bottom: 60px;
+}
+
+h5:hover{
+	color: #003F87;
+	font-size: 50px;
+}
